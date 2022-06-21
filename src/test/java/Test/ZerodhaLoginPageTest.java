@@ -29,10 +29,10 @@ public class ZerodhaLoginPageTest {
 		ZerodhaLoginPage zerodhaLoginPage = new ZerodhaLoginPage(driver);
 		
 		String user = Parametrization.getdata(0, 1);
-		String pass = Parametrization.getdata(1, 1);
+		//String pass = Parametrization.getdata(1, 1);
 		
 		zerodhaLoginPage.enteremailId(user);
-		zerodhaLoginPage.enterpassword(pass);
+		//zerodhaLoginPage.enterpassword(pass);
 		zerodhaLoginPage.clicklogin();
 		
 	}
