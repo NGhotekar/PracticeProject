@@ -13,6 +13,8 @@ import POM.ZerodhaLoginPage;
 import POM.ZerodhaPinPage;
 import Utility.Parametrization;
 
+
+
 public class ZerodhaHomeTest extends TestBase {
 	
 	
@@ -45,9 +47,9 @@ public class ZerodhaHomeTest extends TestBase {
 			 
 			zerodhahomepage.searchOnSearchTab(driver,"d");
 			
-			//zerodhahomepage.clickonShareName(driver,"DCM");
+			zerodhahomepage.clickonShareName(driver,"DCM");
 			
-			zerodhahomepage.clickonBuyButton(driver, "DCM");
+			//zerodhahomepage.clickonBuyButton(driver, "DCM");
 			
 			
 			
